@@ -7,11 +7,19 @@ portTest.sh
 Метод1 открывает порт средствами nc (netcat)
 Метод2 проверяет что порт открыт 
 ```
-#### Example checks
+### Example checks
 ``` 
 [root@localhost scripts]# ./portTest.sh 22
 [+] Port 22 is open
 [root@localhost scripts]# ./portTest.sh 53
 [-] Port 53 is closed
 [root@localhost scripts]#
+```
+### nginx.sh
+``` 
+nginx.sh
+Скрипт устанавливает nginx и запускает его на порт 81
+При входе на $IP:81/test перенаправляет на google.com
+Добавить в автозагрузку
+Запретить его обновление
 ```
