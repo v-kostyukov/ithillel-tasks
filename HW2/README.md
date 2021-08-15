@@ -46,6 +46,27 @@ Number of errors: 7
 match = Done
 ```
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW2/img/screen1.png)
+### pipes.sh
+``` 
+Исправить скрипт таким образом, что бы он не возвращал 0 если в процессе выполнения будет ошибка
+Строки с командами не менять, для QWE алиасы не делать ;-)
+#!/bin/bash
+
+cat /etc/passwd | grep -B 10 root | tr ":" " " | QWE | cut -d "/" -f1 | awk '{ print $NF }' | wc -l
+exitcode=$?
+echo "exit with ${exitcode}"
+exit ${exitcode}
+
+Разобраться в назначении используемых команд и ключей
+Прочесть о переменной ${PIPESTATUS[@]}
+```
+### Console output
+``` 
+./pipes.sh
+./pipes.sh: line 6: QWE: command not found
+0
+exit with 127
+```
 ### portTest.sh
 ```
 portTest.sh
