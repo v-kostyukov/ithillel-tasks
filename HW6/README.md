@@ -16,7 +16,7 @@ curl -v -d /post localhost:9000
 ``` 
 nc -lp 5555
 ```
-![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW5/img/screen1.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW6/img/screen1.png)
 ```
 curl -v -d /post localhost:9000
 * Rebuilt URL to: localhost:9000/
