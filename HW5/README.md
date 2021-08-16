@@ -6,7 +6,6 @@
 ### Console output
 ``` 
 nc -lp 5555
-HELLO
 ```
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW5/img/screen1.png)
 ```
