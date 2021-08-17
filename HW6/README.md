@@ -7,13 +7,13 @@
 nc -lp 9000
 
 # Захватываем сетевой трафик в файл
-tcpdump -v -i lo src localhost and dst port 9000 -w file.pcap
+tcpdump -v -n -i lo port 9000 -w file.pcap
 
 # curl посылаем пустой пост запрос по пути /post на localhost
 curl -v -d /post localhost:9000
 ```
 ### Console output
-``` 
+```
 nc -lp 9000
 ```
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW6/img/screen1.png)
