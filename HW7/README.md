@@ -94,7 +94,7 @@ dig -t txt _hillel.bravotest.tk
 _hillel.bravotest.tk.   119     IN      TXT     "I will work hard"
 ```
 ``` 
- dig -t srv _ldap._tcp.bravotest.tk
+dig -t srv _ldap._tcp.bravotest.tk
 
 ; <<>> DiG 9.11.26-RedHat-9.11.26-4.el8_4 <<>> -t srv _ldap._tcp.bravotest.tk
 ;; global options: +cmd
