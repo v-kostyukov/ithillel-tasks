@@ -6,6 +6,7 @@ SaaS: Google (Docs) Workspace, Dropbox, Zoom, Skype
 PaaS: Google App Engine, AWS Elastic Beanstalk
 IaaS: DigitalOcean, AWS, Azure, GCP
 ```
+### Examples
 ```
 SaaS: 
 Gmail, Trello, Office365, Salesforce CRM, EventPro, 
