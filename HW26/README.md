@@ -8,7 +8,7 @@
  - CentOS (mirrorlist.centos.org)
  - Amazon Linux (packages.*.amazonaws.com + repo.*.amazonaws.com)
 ```
-### Create VPC Prefix List
+### Create VPC Endpoint
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW26/img/screen1.png)
 
 
