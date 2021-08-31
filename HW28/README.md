@@ -6,10 +6,5 @@ Flow log тегируем теми же тегами, что и VPC.
 ```
 ### Create VPC Flow log
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW28/img/screen1.png)
-
-
-
-
-
-
-
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW28/img/screen2.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW28/img/screen3.png)
