@@ -12,4 +12,4 @@
 ### Create VPC
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW21/img/screen1.png)
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW21/img/screen2.png)
-
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW21/img/screen3.png)
