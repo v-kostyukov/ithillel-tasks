@@ -12,7 +12,7 @@ DHCP Option Set ассоциировать с ранее созданным VPC.
 ```
 ### Create DHCP Option Set
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW24/img/screen1.png)
-
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW24/img/screen2.png)
 
 
 
