@@ -25,8 +25,10 @@
 Создать VPC peering между первым и вторым VPC, настроить таблицы маршрутизации обоих VPC, чтобы ресурсы в разных VPC могли свободно коммуницировать между собой.
 Учесть IPv4 CIDR нового VPC в конфигурации NACL в первом VPC.
 ```
-### Create VPC Peering
+### Add inline policy to user hillel
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen1.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen2.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen3.png)
 
 
 
