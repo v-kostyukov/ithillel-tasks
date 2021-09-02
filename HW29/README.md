@@ -37,4 +37,9 @@
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen5.png)
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen6.png)
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen7.png)
+### Create Route table
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen8.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen9.png)
+### Create VPC Peering
+
 
