@@ -42,5 +42,10 @@ Europe(Ireland)eu-west-1
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen8.png)
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen9.png)
 ### Create VPC Peering
-
-
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen10.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen11.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen12.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen13.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen14.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen15.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen16.png)
