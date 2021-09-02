@@ -29,10 +29,12 @@
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen1.png)
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen2.png)
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen3.png)
+### Create VPC
 
-
-
-
-
-
+### Create VPC Peering
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen4.png)
+### Create 2 subnet
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen5.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen6.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW29/img/screen7.png)
 
