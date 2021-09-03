@@ -14,3 +14,6 @@
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW30/img/screen3.png)
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW30/img/screen4.png)
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW30/img/screen5.png)
+``` 
+Europe(Frankfurt) eu-central-1
+```
