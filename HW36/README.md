@@ -5,3 +5,4 @@
 ```
 ### Create SSH key
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW36/img/screen1.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW36/img/screen2.png)
