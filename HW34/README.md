@@ -26,3 +26,7 @@
 ```
 ### Add user hillel inline policy
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW34/img/screen1.png)
+### Create an EBS snapshot policy
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW34/img/screen2.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW34/img/screen3.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW34/img/screen4.png)
