@@ -16,3 +16,9 @@
 ```
 ### Create IAM group EC2 
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW33/img/screen1.png)
+### Create EBS volume
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW33/img/screen2.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW33/img/screen3.png)
+### Create shapshot
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW33/img/screen4.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW33/img/screen5.png)
