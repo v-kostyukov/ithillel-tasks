@@ -20,6 +20,17 @@ Avoid using Windows machines, licenses are expensive
 Make sure all resources removed on completion.
 Don't forget to remove Bastion and CloudShell resources.
 ```
-
-
-
+### Log in to Azure
+``` 
+$ az login
+You have logged in. Now let us find all the subscriptions to which you have access...
+```
+###  Manage Azure subscription information
+``` 
+$ az account
+```
+### Get a list of subscriptions for the logged in account
+``` 
+$ az account list
+```
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW39/img/screen1.png)
