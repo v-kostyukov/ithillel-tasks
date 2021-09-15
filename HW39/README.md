@@ -34,3 +34,22 @@ $ az account
 $ az account list
 ```
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW39/img/screen1.png)
+### Manage resource groups and template deployments
+``` 
+$ az group
+```
+### Create a new resource group
+``` 
+$ az group create -l northeurope -n TestResourceGroup
+{
+  "id": "/subscriptions/59c02ba6-f0cd-4fd1-818b-6042e44da71f/resourceGroups/TestResourceGroup",
+  "location": "northeurope",
+  "managedBy": null,
+  "name": "TestResourceGroup",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+```
