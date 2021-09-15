@@ -76,7 +76,7 @@ $ az network vnet create -g TestResourceGroup -n TestVnet --address-prefix 10.0.
     "enableDdosProtection": false,
     "enableVmProtection": null,
     "etag": "W/\"68455846-6877-4516-a94b-923747e2073a\"",
-    "id": "/subscriptions/59c02ba6-f0cd-4fd1-818b-6042e44da71f/resourceGroups/TestResourceGroup/providers/Microsoft.Network/virtualNetworks/TestVnet",
+    "id": "/subscriptions/*****/resourceGroups/TestResourceGroup/providers/Microsoft.Network/virtualNetworks/TestVnet",
     "location": "northeurope",
     "name": "TestVnet",
     "provisioningState": "Succeeded",
@@ -88,7 +88,8 @@ $ az network vnet create -g TestResourceGroup -n TestVnet --address-prefix 10.0.
         "addressPrefixes": null,
         "delegations": [],
         "etag": "W/\"68455846-6877-4516-a94b-923747e2073a\"",
-        "id": "/subscriptions/59c02ba6-f0cd-4fd1-818b-6042e44da71f/resourceGroups/TestResourceGroup/providers/Microsoft.Network/virtualNetworks/TestVnet/subnets/TestSubnet",
+        "id": "/subscriptions/*****/resourceGroups/TestResourceGroup/providers/Microsoft.
+        Network/virtualNetworks/TestVnet/subnets/TestSubnet",
         "ipConfigurationProfiles": null,
         "ipConfigurations": null,
         "name": "TestSubnet",
