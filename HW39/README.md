@@ -41,8 +41,13 @@ $ az group
 ### Create a new resource group
 ``` 
 $ az group create -l northeurope -n TestResourceGroup
+```
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW39/img/screen2.png)
+### List resource groups
+```
+$ az group list
 {
-  "id": "/subscriptions/59c02ba6-f0cd-4fd1-818b-6042e44da71f/resourceGroups/TestResourceGroup",
+  "id": "/subscriptions/*****/resourceGroups/TestResourceGroup",
   "location": "northeurope",
   "managedBy": null,
   "name": "TestResourceGroup",
