@@ -58,3 +58,60 @@ $ az group list
   "type": "Microsoft.Resources/resourceGroups"
 }
 ```
+### Create Virtual Network, Subnet 
+``` 
+$ az network vnet create -g TestResourceGroup -n TestVnet --address-prefix 10.0.0.0/16 --subnet-name TestSubnet --subnet-prefix 10.0.0.0/24
+{
+  "newVNet": {
+    "addressSpace": {
+      "addressPrefixes": [
+        "10.0.0.0/16"
+      ]
+    },
+    "bgpCommunities": null,
+    "ddosProtectionPlan": null,
+    "dhcpOptions": {
+      "dnsServers": []
+    },
+    "enableDdosProtection": false,
+    "enableVmProtection": null,
+    "etag": "W/\"68455846-6877-4516-a94b-923747e2073a\"",
+    "id": "/subscriptions/59c02ba6-f0cd-4fd1-818b-6042e44da71f/resourceGroups/TestResourceGroup/providers/Microsoft.Network/virtualNetworks/TestVnet",
+    "location": "northeurope",
+    "name": "TestVnet",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "TestResourceGroup",
+    "resourceGuid": "623c597e-62a5-4ff5-82f4-1a257bf04b9c",
+    "subnets": [
+      {
+        "addressPrefix": "10.0.0.0/24",
+        "addressPrefixes": null,
+        "delegations": [],
+        "etag": "W/\"68455846-6877-4516-a94b-923747e2073a\"",
+        "id": "/subscriptions/59c02ba6-f0cd-4fd1-818b-6042e44da71f/resourceGroups/TestResourceGroup/providers/Microsoft.Network/virtualNetworks/TestVnet/subnets/TestSubnet",
+        "ipConfigurationProfiles": null,
+        "ipConfigurations": null,
+        "name": "TestSubnet",
+        "natGateway": null,
+        "networkSecurityGroup": null,
+        "privateEndpointNetworkPolicies": "Enabled",
+        "privateEndpoints": null,
+        "privateLinkServiceNetworkPolicies": "Enabled",
+        "provisioningState": "Succeeded",
+        "purpose": null,
+        "resourceGroup": "TestResourceGroup",
+        "resourceNavigationLinks": null,
+        "routeTable": null,
+        "serviceAssociationLinks": null,
+        "serviceEndpointPolicies": null,
+        "serviceEndpoints": null,
+        "type": "Microsoft.Network/virtualNetworks/subnets"
+      }
+    ],
+    "tags": {},
+    "type": "Microsoft.Network/virtualNetworks",
+    "virtualNetworkPeerings": []
+  }
+}
+```
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW39/img/screen3.png)
