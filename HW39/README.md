@@ -283,3 +283,52 @@ $ az network nsg create -l northeurope -g TestResourceGroup -n TestNsg
 }
 ```
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW39/img/screen4.png)
+### Create a service principal
+``` 
+$ az ad sp create-for-rbac -n ServicePrincipalTest
+Changing "ServicePrincipalTest" to a valid URI of "http://ServicePrincipalTest", which is the required format used for service principal names
+Creating a role assignment under the scope of "/subscriptions/*****"
+  Retrying role assignment creation: 1/36
+  Retrying role assignment creation: 2/36
+  Retrying role assignment creation: 3/36
+  Retrying role assignment creation: 4/36
+{
+  "appId": "ad8ca6cd-3013-45ad-9f23-eba7a33dbb1a",
+  "displayName": "ServicePrincipalTest",
+  "name": "http://ServicePrincipalTest",
+  "password": "*****",
+  "tenant": "*****"
+}
+```
+### List service principal roles
+```
+$ az role assignment list
+[
+  {
+    "canDelegate": null,
+    "id": "/subscriptions/*****/providers/Microsoft.Authorization/roleAssignments/ca590552-fe4b-4bbf-84cb-3b5fb0a02b26",
+    "name": "ca590552-fe4b-4bbf-84cb-3b5fb0a02b26",
+    "principalId": "a4849370-155b-4a86-8121-3e0beebded9c",
+    "principalName": "vitaliy.*****",
+    "principalType": "User",
+    "roleDefinitionId": "/subscriptions/*****/providers/Microsoft.
+    Authorization/roleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+    "roleDefinitionName": "Owner",
+    "scope": "/subscriptions/*****",
+    "type": "Microsoft.Authorization/roleAssignments"
+  },
+  {
+    "canDelegate": null,
+    "id": "/subscriptions/*****/providers/Microsoft.Authorization/roleAssignments/722c3235-30c4-47c3-89b3-c5c92b8b2ae7",
+    "name": "722c3235-30c4-47c3-89b3-c5c92b8b2ae7",
+    "principalId": "a3995982-5049-40ca-82e3-17f688c25f1f",
+    "principalName": "http://ServicePrincipalTest",
+    "principalType": "ServicePrincipal",
+    "roleDefinitionId": "/subscriptions/*****/providers/Microsoft.
+    Authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+    "roleDefinitionName": "Contributor",
+    "scope": "/subscriptions/*****",
+    "type": "Microsoft.Authorization/roleAssignments"
+  }
+]
+```
