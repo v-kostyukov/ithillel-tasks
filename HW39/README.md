@@ -332,3 +332,82 @@ $ az role assignment list
   }
 ]
 ```
+### Create Storage Account
+``` 
+az storage account create -n teststorgr --resource-group TestResourceGroup -l northeurope --sku Standard_RAGRS --kind StorageV2
+{
+  "accessTier": "Hot",
+  "azureFilesIdentityBasedAuthentication": null,
+  "creationTime": "2021-09-16T20:41:32.944161+00:00",
+  "customDomain": null,
+  "enableHttpsTrafficOnly": true,
+  "encryption": {
+    "keySource": "Microsoft.Storage",
+    "keyVaultProperties": null,
+    "services": {
+      "blob": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2021-09-16T20:41:33.053564+00:00"
+      },
+      "file": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2021-09-16T20:41:33.053564+00:00"
+      },
+      "queue": null,
+      "table": null
+    }
+  },
+  "failoverInProgress": null,
+  "geoReplicationStats": null,
+  "id": "/subscriptions/*****/resourceGroups/TestResourceGroup/providers/Microsoft.Storage/storageAccounts/teststorgr",
+  "identity": null,
+  "isHnsEnabled": null,
+  "kind": "StorageV2",
+  "largeFileSharesState": null,
+  "lastGeoFailoverTime": null,
+  "location": "northeurope",
+  "name": "teststorgr",
+  "networkRuleSet": {
+    "bypass": "AzureServices",
+    "defaultAction": "Allow",
+    "ipRules": [],
+    "virtualNetworkRules": []
+  },
+  "primaryEndpoints": {
+    "blob": "https://teststorgr.blob.core.windows.net/",
+    "dfs": "https://teststorgr.dfs.core.windows.net/",
+    "file": "https://teststorgr.file.core.windows.net/",
+    "internetEndpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://teststorgr.queue.core.windows.net/",
+    "table": "https://teststorgr.table.core.windows.net/",
+    "web": "https://teststorgr.z16.web.core.windows.net/"
+  },
+  "primaryLocation": "northeurope",
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "resourceGroup": "TestResourceGroup",
+  "routingPreference": null,
+  "secondaryEndpoints": {
+    "blob": "https://teststorgr-secondary.blob.core.windows.net/",
+    "dfs": "https://teststorgr-secondary.dfs.core.windows.net/",
+    "file": null,
+    "internetEndpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://teststorgr-secondary.queue.core.windows.net/",
+    "table": "https://teststorgr-secondary.table.core.windows.net/",
+    "web": "https://teststorgr-secondary.z16.web.core.windows.net/"
+  },
+  "secondaryLocation": "westeurope",
+  "sku": {
+    "name": "Standard_RAGRS",
+    "tier": "Standard"
+  },
+  "statusOfPrimary": "available",
+  "statusOfSecondary": "available",
+  "tags": {},
+  "type": "Microsoft.Storage/storageAccounts"
+}
+```
