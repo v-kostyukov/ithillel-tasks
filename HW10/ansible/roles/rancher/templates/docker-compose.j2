@@ -1,0 +1,16 @@
+version: '2'
+
+networks:
+  net:
+    driver: bridge
+services:
+  rancher:
+    image: rancher/rancher:latest
+    restart: always
+    privileged: true
+    ports:
+      - '80:80'
+      - '443:443'
+    networks:
+      - net
+
