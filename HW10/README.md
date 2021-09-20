@@ -104,3 +104,4 @@ PLAY RECAP *********************************************************************
 ```
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW10/img/screen1.png)
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW10/img/screen2.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW10/img/screen3.png)
