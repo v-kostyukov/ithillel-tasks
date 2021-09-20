@@ -103,3 +103,4 @@ PLAY RECAP *********************************************************************
 192.168.0.109              : ok=17   changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW10/img/screen1.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW10/img/screen2.png)
