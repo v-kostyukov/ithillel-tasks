@@ -26,6 +26,23 @@ The main goal:
 2. One of the VM must have public IP
 3. Each VM must be resolvable.
 ```
-
-
-
+### Initialize directory, pull down providers
+``` 
+terraform init
+```
+### Format code per HCL canonical standard
+``` 
+terraform fmt
+```
+### Validate code for syntax
+``` 
+terraform validate
+```
+### Output the deployment plan
+``` 
+terraform plan
+```
+### Apply changes
+``` 
+terraform apply
+```
