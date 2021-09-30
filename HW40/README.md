@@ -384,3 +384,4 @@ Changes to Outputs:
 ```
 ### terraform apply
 ![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW40/img/screen3.png)
+![screen shot web page](https://github.com/v-kostyukov/ithillel-tasks/blob/master/HW40/img/screen4.png)
