@@ -7,6 +7,7 @@ terraform {
   }
 }
 
+# Create the AzureRM provider in terraform
 provider "azurerm" {
   features {}
 #  subscription_id = var.subscription_id
